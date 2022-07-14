@@ -223,6 +223,8 @@ To remove the last commit from git, you can simply run git reset --hard HEAD^ If
 If you want to "uncommit" the commits, but keep the changes around for reworking, remove the "--hard": git reset HEAD^ which will evict the commits from the branch and from the index, but leave the working tree around.
 If you want to save the commits on a new branch name, then run git branch newbranchname before doing the git reset.
 
+print("hello gamze")
+
 
 
 git log --graph
